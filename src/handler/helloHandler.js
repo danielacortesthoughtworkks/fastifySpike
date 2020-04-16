@@ -1,9 +1,9 @@
+const helloService = require('../service/helloService')
+
 const helloHandler = function (request, reply) {
-    reply.send({
-        name: 'Frontend Developer',
-        description:
-            'Step by step guide to becoming a modern frontend developer',
-    })
+    reply.send(
+      helloService()
+    )
 }
 module.exports = {
     helloHandler
