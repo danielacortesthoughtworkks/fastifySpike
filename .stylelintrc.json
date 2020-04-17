@@ -1,5 +1,5 @@
 {
-  "extends":"airbnb",
+  "extends":"stylelint-config-standard",
   "env": {
     "node": true,
     "jest": true
