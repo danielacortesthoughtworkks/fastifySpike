@@ -2,7 +2,7 @@
   "name": "fastifyspike",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server.mjs",
   "dependencies": {
     "fastify": "^2.13.1"
   },
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start": "node server.mjs"
   },
   "author": "",
   "license": "ISC"

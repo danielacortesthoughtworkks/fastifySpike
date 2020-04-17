@@ -1,0 +1,11 @@
+{
+  "extends":"airbnb",
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "max-len": ["warn"]
+  }
+}
